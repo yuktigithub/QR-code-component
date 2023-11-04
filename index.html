@@ -8,18 +8,19 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+
   
   <title>Frontend Mentor | QR code component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     body{
-      margin: 7% 40%;
       background-color: hsl(212, 45%, 89%);
     }
     .white-box-card{
       height: 29em;
       width: 18.125em;
+      margin: 50px auto;
       border-radius: 6%;
       align-items: center;
       background-color: white;
@@ -28,21 +29,21 @@
     }
     .img{
       border-radius: 5%;
-      margin-top: 10px;
-      height: 17em;
-      width: 17em;
+      margin-top: 13px;
+      height: 16.5em;
+      width: 16.5em;
     }
+    
     .attribution { 
       font-family: 'Outfit', sans-serif;
       font-size: 11px; 
       text-align: center;
       color: hsl(228, 26%, 11%); }
-
+    
     .attribution a { color: hsl(228, 45%, 44%); 
       font-family: 'Outfit', sans-serif;
   
     }
-
     .sub-heading{
      color: hsl(212, 16%, 69%);
      font-family: 'Outfit', sans-serif;
@@ -54,33 +55,30 @@
     }
     p{
       margin-top: 0px;
+      padding: 0px 18px;
     }
     @media (max-width:400px) {
-      body{
-      margin: 5em 2em;
-      background-color: hsl(212, 45%, 89%);
+     .white-box-card{
+      height: 32em;
+      width: 19.125em;
+    }
+    .img{
+      margin-top: 18px;
     }
     }
-
   </style>
 </head>
 <body>
   <div class="white-box-card">
-    <div class="qr-image">
-      <img class='img'src="./images/image-qr-code.png" alt="qr-code">
-    </div>
+    <img class='img'src="./images/image-qr-code.png" alt="qr-code">
     <div class="heading attribution">
       <h1> your front-end skills by building projects</h1>
     </div>
     <div class="sub-heading">
       <p> Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-   
     </div>
   </div>
-
-  <!-- Improve your front-end skills by building projects
-
-   -->
+  
   <div class="attribution footer" style="color: hsl(212, 32%, 25%);">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://www.linkedin.com/in/yukti-mahoviya-501194218/">Yukti Mahoviya❤️</a>.
